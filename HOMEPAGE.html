@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HOME PAGE</title>
+<meta charset="utf-8">
+<logo class="logo">
+    <img src="About Us images/toyo 3.jpg"width="100px"height="100px"></img>
+    </logo>
+  <h1 class="hdg">UTAMU TOYOTA CORPORATION LIMITED</h1>
+  <link rel="stylesheet" href="sientstyle.css">
+<link rel="stylesheet" href="sientstyle.css">
+</head>
+<body>
+     <nav>                  
+    <b><a href="COURSEWORK.html">HOME</a>&nbsp;
+     <a href="ABOUT US.html">ABOUT US</a>&nbsp;  
+     <a href="SIENTA CAR. html.html">GALLERY</a>&nbsp;    
+     <a href="CONTACTS.html">CONTACTS</a>
+            
+</b></nav>
+<div>
+    <!-- TOP IMAGE AUTOMATIC SLIDE -->
+    <div class="myslides">
+   <div class="w3-content" style="max-width:980px">
+    <img class="mySlides" src="SLIDS/pexels-mike-bird-1007410.jpg" style="width:90%">
+    <img class="mySlides" src="SLIDS/pexels-mike-bird-810357.jpg" style="width:90%">
+    <img class="mySlides" src="SLIDS/pexels-mike-bird-244206.jpg" style="width:90%">
+    <img class="mySlides" src="SLIDS/pexels-mike-bird-116675.jpg" style="width:90%">
+    
+</div>
+
+
+
+
+<script>
+
+ 
+  //top automatic image change
+
+  var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 60 seconds
+}
+
+//Instant Chat Message
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
